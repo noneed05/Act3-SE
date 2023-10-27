@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0 auto;
+}
+
+@font-face {
+  /* primary font */
+  font-family: 'SF Pro Display Bold';
+  src: url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot');
+  src: url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/3cff9206b4c8d578245ef1aaeeaf9e84.svg#SF Pro Display Bold')
+      format('svg');
+}
+
+@font-face {
+  /* secondary font */
+  font-family: 'SF Pro Display Regular';
+  src: url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot');
+  src: url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display Regular')
+      format('svg');
+}
+
+/* add code here */
+#menu{
+  justify-content:right;
+}
+ul{
+  display: flex;
+  position: relative;
+  left: 21%;
+}
+.haha{
+  position: relative;
+  float: left;
+  left: 60px;
+  bottom: 950px;
+  font-size: 130px;
+  color: white;
+
+}
+.bttn1{
+  position: relative;
+  float: left;
+  bottom: 700px;
+  left: 563px;
+  background-color: lightgray;
+  border-radius: 11px;
+  
+
+}
+.bttn2{
+  position: relative;
+  float: left;
+  bottom: 620px;
+  left: 400px;
+  background-color: lightgray;
+  border-radius: 11px;
+}
+.body{
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.hehe{
+  margin-top: -10%;
+  margin-right: 90px;
+}
+.book1{
+  float: right; 
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+.huhu{
+  margin-top: 10px;
+}
+.sige{
+  margin-left: 100px;
+  margin-top: 50px;
+}
